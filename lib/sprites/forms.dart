@@ -37,7 +37,7 @@ class _SchedulePageState extends State<SchedulePage> {
 
   Map<String, dynamic> schedule = {};
 
-  /// GENERa horas
+  /// Genera horas con rango
   List<Map<String, String>> generateHours() {
     List<Map<String, String>> hours = [];
 
@@ -61,7 +61,7 @@ class _SchedulePageState extends State<SchedulePage> {
     loadJson();
   }
 
-  /// CARGA JSON
+  /// Carga JSON inicial
   Future<void> loadJson() async {
 
     final String data =
@@ -70,6 +70,57 @@ class _SchedulePageState extends State<SchedulePage> {
     setState(() {
       schedule = jsonDecode(data);
     });
+  }
+
+  /// Editar celda
+  void editCell(String day, String hour) {
+
+    TextEditingController controller = TextEditingController();
+
+    if (schedule[day] != null && schedule[day][hour] != null) {
+      controller.text = schedule[day][hour];
+    }
+
+    showDialog(
+      context: context,
+      builder: (context) {
+        return AlertDialog(
+          title: Text("Editar $day $hour"),
+          content: TextField(
+            controller: controller,
+            decoration: const InputDecoration(
+              labelText: "Nombre de la clase",
+            ),
+          ),
+          actions: [
+
+            TextButton(
+              onPressed: () {
+                Navigator.pop(context);
+              },
+              child: const Text("Cancelar"),
+            ),
+
+            ElevatedButton(
+              onPressed: () {
+
+                setState(() {
+
+                  schedule[day] ??= {};
+
+                  schedule[day][hour] = controller.text;
+
+                });
+
+                Navigator.pop(context);
+              },
+              child: const Text("Guardar"),
+            ),
+
+          ],
+        );
+      },
+    );
   }
 
   @override
@@ -117,7 +168,7 @@ class _SchedulePageState extends State<SchedulePage> {
                       return Row(
                         children: [
 
-                          /// HORAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+                          /// HORA
                           Container(
                             width: 100,
                             height: 80,
@@ -139,13 +190,19 @@ class _SchedulePageState extends State<SchedulePage> {
                             return Container(
                               width: 150,
                               height: 80,
-                              alignment: Alignment.center,
                               decoration: BoxDecoration(
                                 border: Border.all(color: Colors.black12),
                               ),
-                              child: Text(
-                                text,
-                                textAlign: TextAlign.center,
+                              child: TextButton(
+
+                                onPressed: () {
+                                  editCell(day, hourKey);
+                                },
+
+                                child: Text(
+                                  text.isEmpty ? "+" : text,
+                                  textAlign: TextAlign.center,
+                                ),
                               ),
                             );
                           })
