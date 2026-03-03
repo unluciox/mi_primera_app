@@ -19,8 +19,8 @@ class _SpriteCarouselState extends State<SpriteCarousel> {
   final PageController _controller = PageController();
   int currentIndex = 0;
 
-final List<Widget> pages = [
-  //const RevolverAnimator(), // este sí puede ser const
+final List<Widget> pages = [    //<------------Aqui se añaden las ventanas de la carpeta /lib/sprites individualmente
+  //const RevolverAnimator(),  
   //const SubmachineAnimator(),
   //EnemyAnimator(), // ← NO const
 

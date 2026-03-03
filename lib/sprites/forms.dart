@@ -37,7 +37,7 @@ class _SchedulePageState extends State<SchedulePage> {
 
   Map<String, dynamic> schedule = {};
 
-  /// Genera horas con rango
+  /// Genera horas 
   List<Map<String, String>> generateHours() {
     List<Map<String, String>> hours = [];
 
@@ -61,7 +61,7 @@ class _SchedulePageState extends State<SchedulePage> {
     loadJson();
   }
 
-  /// Carga JSON inicial
+  /// Carga JSON 
   Future<void> loadJson() async {
 
     final String data =
