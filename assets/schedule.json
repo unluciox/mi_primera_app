@@ -1,0 +1,38 @@
+{
+  "lunes": {
+    "14:00": "Inteligencia Artificial",
+    "15:00": "Inteligencia Artificial"
+  },
+  "martes": {
+    "12:00": "Taller de Inv",
+    "13:00": "Taller de Inv",
+    "14:00": "Programación Moviles",
+    "15:00": "Programación Moviles",
+    "16:00": "Programación Moviles"
+  },
+  "miercoles": {
+    "09:00": "Des Back-End",
+    "10:00": "Des Back-End",
+    "11:00": "Inteligencia Artificial",
+    "12:00": "Inteligencia Artificial",
+    "13:00": "Gestion Agil",
+    "14:00": "Gestion Agil",
+    "15:00": "Gestion Agil"
+
+  },
+  "jueves": {
+    "12:00": "Taller de Inv",
+    "13:00": "Taller de Inv",
+    "14:00": "Programación Moviles",
+    "15:00": "Programación Moviles"
+
+  },
+  "viernes": {
+    "10:00": "Des Back-End",
+    "11:00": "Des Back-End",
+    "12:00": "Des Back-End",
+    "13:00": "Gestion Agil",
+    "14:00": "Gestion Agil"
+
+  }
+}
