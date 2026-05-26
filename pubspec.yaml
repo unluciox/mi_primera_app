@@ -31,6 +31,17 @@ dependencies:
   shared_preferences: ^2.2.2
   flutter:
     sdk: flutter
+  kommunicate_flutter: ^2.0.9
+  video_player: ^2.8.2
+  media_kit: ^1.1.10
+  media_kit_video: ^1.2.4
+  media_kit_libs_windows_video: ^1.0.0
+  file_picker: ^6.1.1
+  image: ^4.1.3
+  desktop_multi_window: ^0.2.1
+  #flutter_ai_toolkit: any
+  #firebase_ai: any
+  #firebase_core: any
     
     
 
@@ -103,14 +114,22 @@ flutter:
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
   assets:
-        - assets/sprites/revolver_reload.png
-        - assets/sprites/revolver_trigger.png
-        - assets/sounds/bulletchamber.mp3
-        - assets/sounds/empty.mp3
-        - assets/sounds/revolver.mp3
-        - assets/sprites/
-        - assets/sounds/
-        - assets/images/
-        - assets/schedule.json
+    - assets/recipes.json
+    - assets/autocorrect_exceptions.json
+    - assets/sprites/revolver_reload.png
+    - assets/sprites/revolver_trigger.png
+    - assets/sounds/bulletchamber.mp3
+    - assets/sounds/empty.mp3
+    - assets/sounds/revolver.mp3
+    - assets/sprites/
+    - assets/sounds/
+    - assets/images/
+    - assets/videos/
+    - assets/schedule.json
+    - assets/recognition/tomato/
+    - assets/recognition/tortilla/
+    - assets/recognition/onion/
+    - assets/recognition/queso/
+    - assets/recognition/pollo/
 
 

@@ -6,6 +6,9 @@ import '../sprites/forms.dart';
 import '../sprites/fades.dart';
 import '../sprites/dog.dart';
 import '../sprites/parallax.dart';
+import '../sprites/chat_ui.dart';
+import '../sprites/chatbotkomunicate.dart';
+import '../sprites/aicuisine.dart';
 // ejemplo
 
 class SpriteCarousel extends StatefulWidget {
@@ -20,9 +23,11 @@ class _SpriteCarouselState extends State<SpriteCarousel> {
   int currentIndex = 0;
 
 final List<Widget> pages = [    //<------------Aqui se añaden las ventanas de la carpeta /lib/sprites individualmente
+  const AICuisine(),
   //const RevolverAnimator(),  
   //const SubmachineAnimator(),
   //EnemyAnimator(), // ← NO const
+  UniversityChatbot(),
 
   MyApp(),
   MyApp2(),

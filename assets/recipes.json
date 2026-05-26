@@ -1,0 +1,92 @@
+[
+  {
+    "nombre": "Quesadillas de Queso",
+    "ingredientes": ["tortilla", "queso"],
+    "pasos": [
+      "Calentar la tortilla en un comal caliente.",
+      "Colocar el queso sobre la tortilla hasta que comience a derretirse.",
+      "Doblar la tortilla por la mitad y servir bien caliente."
+    ]
+  },
+  {
+    "nombre": "Guacamole Fresco",
+    "ingredientes": ["aguacate", "cebolla", "tomate", "cilantro", "limon"],
+    "pasos": [
+      "Machacar la pulpa de los aguacates en un tazón hasta obtener una pasta.",
+      "Picar finamente la cebolla, el tomate y el cilantro.",
+      "Mezclar todos los ingredientes con el jugo de limón y una pizca de sal al gusto."
+    ]
+  },
+  {
+    "nombre": "Tacos de Pollo",
+    "ingredientes": ["tortilla", "pollo", "cebolla", "cilantro", "limon"],
+    "pasos": [
+      "Cocer y deshebrar la pechuga de pollo con sal y especias.",
+      "Calentar las tortillas de maíz en el comal.",
+      "Colocar el pollo sobre las tortillas calientes y decorar con cebolla, cilantro y unas gotas de limón."
+    ]
+  },
+  {
+    "nombre": "Huevo con Jamón",
+    "ingredientes": ["huevo", "jamon", "aceite"],
+    "pasos": [
+      "Cortar el jamón en pequeños cubos uniformes.",
+      "Sofreír el jamón en una sartén caliente con un chorrito de aceite.",
+      "Agregar los huevos previamente batidos y revolver hasta que estén bien cocidos."
+    ]
+  },
+  {
+    "nombre": "Chilaquiles Sencillos",
+    "ingredientes": ["tortilla", "salsa de tomate", "queso", "crema", "pollo"],
+    "pasos": [
+      "Cortar las tortillas en triángulos y freírlas en aceite bien caliente hasta que estén crujientes.",
+      "Bañar los totopos crujientes con salsa de tomate caliente en una sartén.",
+      "Servir de inmediato decorado con pollo deshebrado, queso fresco espolvoreado y crema."
+    ]
+  },
+  {
+    "nombre": "Ensalada de Atún",
+    "ingredientes": ["atun", "mayonesa", "lechuga", "tomate", "cebolla"],
+    "pasos": [
+      "Escurrir perfectamente el líquido de la lata de atún.",
+      "En un tazón, mezclar el atún con la mayonesa, tomate y cebolla finamente picados.",
+      "Servir sobre hojas de lechuga limpias y frescas."
+    ]
+  },
+  {
+    "nombre": "Molletes de Frijol y Queso",
+    "ingredientes": ["pan", "frijoles", "queso", "tomate", "cebolla"],
+    "pasos": [
+      "Cortar los panes (bolillo) a la mitad y untar frijoles refritos calientes.",
+      "Cubrir con una rebanada generosa de queso para derretir.",
+      "Hornear o calentar en sartén tapada hasta gratinar, y servir con tomate y cebolla picados (pico de gallo)."
+    ]
+  },
+  {
+    "nombre": "Pasta con Salsa de Tomate",
+    "ingredientes": ["pasta", "salsa de tomate", "queso", "ajo"],
+    "pasos": [
+      "Hervir la pasta en abundante agua con sal hasta que quede al dente.",
+      "En una sartén, calentar la salsa de tomate con el ajo picado a fuego lento.",
+      "Escurrir la pasta, mezclarla con la salsa caliente y espolvorear queso rallado antes de servir."
+    ]
+  },
+  {
+    "nombre": "Sándwich Clásico",
+    "ingredientes": ["pan", "jamon", "queso", "mayonesa", "lechuga"],
+    "pasos": [
+      "Untar una capa ligera de mayonesa en dos rebanadas de pan.",
+      "Colocar el jamón, el queso y una hoja de lechuga fresca desinfectada.",
+      "Cerrar el sándwich, cortar en diagonal y disfrutar frío o tostado."
+    ]
+  },
+  {
+    "nombre": "Papas con Chorizo",
+    "ingredientes": ["papa", "chorizo", "aceite"],
+    "pasos": [
+      "Cortar las papas en cubos pequeños y hervirlas en agua con sal hasta que se ablanden.",
+      "En una sartén con poco aceite, freír el chorizo hasta que esté bien dorado.",
+      "Agregar las papas escurridas a la sartén y mezclar bien, machacando ligeramente hasta que todo esté dorado."
+    ]
+  }
+]

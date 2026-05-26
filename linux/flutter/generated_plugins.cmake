@@ -4,6 +4,9 @@
 
 list(APPEND FLUTTER_PLUGIN_LIST
   audioplayers_linux
+  desktop_multi_window
+  media_kit_video
+  volume_controller
 )
 
 list(APPEND FLUTTER_FFI_PLUGIN_LIST
