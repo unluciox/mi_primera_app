@@ -9,6 +9,7 @@ import '../sprites/parallax.dart';
 import '../sprites/chat_ui.dart';
 import '../sprites/chatbotkomunicate.dart';
 import '../sprites/aicuisine.dart';
+import '../sprites/turnbasedcombat.dart';
 // ejemplo
 
 class SpriteCarousel extends StatefulWidget {
@@ -33,6 +34,12 @@ final List<Widget> pages = [    //<------------Aqui se añaden las ventanas de l
   MyApp2(),
   ScheduleApp(),
   MyApp4(),
+  RevolverAnimator(),
+  SubmachineAnimator(),
+  ChatBotPage(),
+  TurnCombatScreen(),
+  EnemyAnimator(),
+
 ];
 
   void nextPage() {
